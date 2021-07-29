@@ -1,5 +1,5 @@
 """
-ASGI config for Project_RestF project.
+ASGI config for ecomerce_rest project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Project_RestF.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecomerce_rest.settings.local.py')
 
 application = get_asgi_application()
